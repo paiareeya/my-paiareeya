@@ -1,0 +1,165 @@
+.Form-Home {
+  display: flex;
+  background-color: #ffffff;
+}
+
+/* .padding-0 {
+    padding-right: 0;
+  } */
+
+/* .form-main {
+      padding-top: ;
+  } */
+.front {
+  display: block;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, 10%);
+  width: 70vw;
+  height: 55vh;
+  object-fit: cover;
+}
+.background {
+  width: 100%;
+  height: 50vh;
+}
+.back-label {
+  margin-top: 10px;
+}
+.form-label {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.form-label > h2 {
+  font-weight: 900;
+  font-family: "Chivo Mono", monospace;
+}
+.btn-front {
+  padding-top: 20px;
+}
+.btn-Hire {
+  background-color: #1b263b;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  width: 7vw;
+  height: 5vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* font-weight: 600; */
+}
+.back-label {
+  /* display: block; */
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #ffffff;
+  width: 80vw;
+}
+.back-aboutMe {
+  display: table;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.back-aboutMe > h4 {
+  font-weight: bold;
+  font-family: "Chivo Mono", monospace;
+}
+.btn-back {
+  padding-top: 20px;
+}
+.btn-Projects {
+  background-color: #fca311;
+  color: #1b263b;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  width: 7vw;
+  height: 5vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+.back-image {
+  width: 18vw;
+  height: 35vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.back-label-detail {
+  display: table;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.label-detail {
+  display: flex;
+  font-weight: bold;
+}
+.label-detail > p {
+  padding-left: 10px;
+  font-weight: normal;
+  opacity: 0.9;
+}
+.from-cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+.label-on-label {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 15vw; */
+  font-weight: bold;
+}
+.label-on-All-p {
+  margin-top: 20px;
+}
+.label-on-p {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.5;
+  font-weight: 50;
+  opacity: 0.7;
+}
+.grid-card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+  height: 50vh;
+  margin-top: 50px;
+}
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(54, 54, 54, 0.2),
+    0 6px 20px 0 rgba(44, 44, 44, 0.19);
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Chivo Mono", monospace;
+}
+.card-text {
+  text-indent: 30px;
+}

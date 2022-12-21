@@ -1,0 +1,105 @@
+.from-contacts {
+  display: block;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.contacts-us > h1 {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Chivo Mono", monospace;
+}
+
+.contacts-info {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-label {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  text-align: center;
+}
+.from-contacts-input {
+  padding-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+p > label {
+  display: flex;
+  padding-left: 10px;
+}
+.from-btn-send {
+  padding-top: 30px;
+}
+.btn-send {
+  width: 400px;
+}
+.contacts-info {
+  padding-top: 40px;
+  margin-left: 100px;
+}
+
+.card-info {
+  background-color: #1b263b;
+  width: 500px;
+  height: 400px;
+}
+.card-info > h1 {
+  padding-top: 60px;
+  padding-left: 30px;
+  font-family: "Chivo Mono", monospace;
+  color: #ffffff;
+}
+.container-info {
+  padding-left: 50px;
+  padding-top: 40px;
+  color: #ffffff;
+}
+.icon-faEnvelope {
+  width: 25px;
+  height: 25px;
+}
+.info-email {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.info-email > label {
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+.icon-faPhone {
+  width: 25px;
+  height: 25px;
+}
+.info-phone {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+.info-phone > label {
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+.icon-faTime {
+  width: 25px;
+  height: 25px;
+}
+.info-time {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+.info-time > label {
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 2px;
+}
