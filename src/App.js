@@ -4,12 +4,14 @@ import Home from './pages/Home';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Contacts from './pages/Contacts';
 import Layout from './pages/Layout';
+import { HashRouter } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter base="/">
         <Routes>
           <Route path='/' element={<Layout />}>
             {/* <Route index element={<Main />} /> */}
@@ -18,7 +20,8 @@ function App() {
             <Route path='contacts' element={<Contacts />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
