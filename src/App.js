@@ -10,8 +10,7 @@ import { HashRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter> */}
-      <HashRouter base="/">
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
             {/* <Route index element={<Main />} /> */}
@@ -20,8 +19,7 @@ function App() {
             <Route path='contacts' element={<Contacts />} />
           </Route>
         </Routes>
-      </HashRouter>
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }
