@@ -12,7 +12,7 @@ class Navbar extends Component {
                 <div className="row row-cols-3">
                     <div className="col">
                         <div className="form-logo">
-                            <img className="logo" src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/298095624_4080376938853367_1506917741042582826_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BqP110ldMAEAX9HxN1S&_nc_ht=scontent.fkkc3-1.fna&oh=00_AfCYU1Adm54s8ro_2pcgStSEEsVhzoHopiznOvyvSposiQ&oe=63A09BB3" alt="" />
+                            <img className="logo" src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/298095624_4080376938853367_1506917741042582826_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=DpsXo2ZdzowAX_zdCpp&_nc_ht=scontent.fkkc3-1.fna&oh=00_AfAweBdi1F8NBRQ8e_8cRtFzPsihbhVmjKOgYXFL2BA7LQ&oe=63A884B3" alt="" />
                             <h5>Pai Areeya</h5>
                         </div>
                     </div>
